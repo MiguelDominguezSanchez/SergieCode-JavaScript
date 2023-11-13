@@ -1,2 +1,3 @@
-document.getElementById('demostracion').innerHTML =
-	'Este texto ha sido generado por JavaScript'
+function nombreDeFuncion() {
+	const nombreVariable = 'Variable dentro de función'
+}
