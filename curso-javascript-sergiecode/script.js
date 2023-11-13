@@ -1,8 +1,6 @@
-let x = 5
+let a = 5.9 // número
+let b = '5.5' // texto
 
-{
-	let y = 3
-	x -= y
+let c = a + parseFloat(b) // INTEGER
 
-	console.log(x)
-}
+console.log(c)
