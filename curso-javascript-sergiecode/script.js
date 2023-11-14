@@ -1,13 +1,21 @@
-// CONJUNCIÓN => &&
-// DISYUNCIÓN => ||
-// NEGACIÓN => !
+let num = '10'
 
-let a = 5
-let b = 9
-let c = 5
+// Función clásica
+// function sumarDecena(numero) {
+// 	return numero + 12
+// }
 
-let x = a == 5
+// Arrow function
+// let sumarDecena = (numero) => {
+// 	return numero + 12
+// }
+// Oneline Arrow function
+// let sumarDecena = (numero) => numero + 12
 
-// operador NEGACIÓN = !
+// const respuesta = sumarDecena(parseInt(num))
 
-console.log(!x)
+// console.log(respuesta)
+
+let funcion = () => console.log('Soy una función')
+
+funcion()
